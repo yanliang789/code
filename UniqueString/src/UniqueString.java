@@ -4,6 +4,7 @@ public class UniqueString {
 	        System.out.println("Is string unique: " + isStringUnique("abcdefg"));
 	    }
 	 
+	//ASC-II code
 	 private static boolean isStringUnique(String str) {
 		 boolean[] charSet = new boolean[256];
 		 if(str == null || str.length() == 0) {
